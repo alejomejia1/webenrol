@@ -1,0 +1,141 @@
+﻿.card_device {
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    border: 2px;
+    border-style: solid;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.card_device .card_title .form-control {
+    text-align: center;
+    justify-content:center;
+    height:auto;
+}
+
+.card_device .input_group {
+    margin-top: 20px;
+}
+.form-group{
+    margin: 20px;
+}
+.input-group-text {
+    width: 150px;
+    display: inline-block;
+    padding: 5px;
+
+}
+
+#container {
+	width: auto;
+	/* background-image: url(../graphics/wall.jpg); */
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 50px;
+	margin-left: auto;
+}
+
+#top-wrapper {
+	width: 100%;
+	float: left;
+	/* margin: 10px; */
+	/* background-image: url(../graphics/transparent.png); */
+	margin-bottom: 13px;
+	position: fixed;
+    background-color: #DF0101;
+}
+
+#top {
+	background-color: #FFEF0F;
+	width: 100%;
+	float: left;
+	clear: both;
+	margin-bottom: 13px;
+}
+
+#pagetitle {
+	width: 100%;
+	float: left;
+	background-color: #ffef0f;
+	/* background-image: url(../graphics/caution_long.gif); 
+	background-repeat: repeat;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	color: #F63;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bolder;
+	font-size: 18px; */
+	height: 24px;
+	clear: both;
+	
+}
+
+#content-wrapper {
+	/* float: none; */
+	width: 80%;
+	/* background-color: #0080FF; */
+	
+}
+
+#left {
+	float: left;
+	background-color: #8000FF;
+	width: 17%;
+	margin-right: 10px;
+	/* position: fixed; */
+}
+
+#right {
+	float: right;
+	border-left: 1px solid grey;
+	width: 30%;
+	height: 100vh;
+	/* position: fixed; */
+	/* clear: both; */
+	font-size: 80%;
+}
+
+#content_devices {
+	float: left;
+	width: 85%;
+	overflow: scroll;
+	padding-bottom:200px;
+	height: 100vh; 
+}
+
+#mqtt_receive {
+	padding:10px;
+	margin-left:10px;
+	background-color: lightgrey;
+	border:	1px solid black;
+	border-radius: 5px;
+	color: black;
+}
+
+#mqtt_send {
+	padding:10px;
+	margin-left:10px;
+	background-color: black;
+	border:	1px solid black;
+	border-radius: 5px;
+	font-size: 50%;
+	color: yellowgreen;
+
+    /* min-height: 40%; */
+}
+
+.wordwrap { 
+	white-space: pre-wrap;      /* CSS3 */   
+	white-space: -moz-pre-wrap; /* Firefox */    
+	white-space: -pre-wrap;     /* Opera <7 */   
+	white-space: -o-pre-wrap;   /* Opera 7 */    
+	word-wrap: break-word;      /* IE */
+ }
+
+ .table td {
+	 border-top: 1px solid #dae0ec;
+	 padding: 1px;
+ }
